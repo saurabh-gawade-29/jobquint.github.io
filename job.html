@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/job.css" />
+
+    <!-- Tab ICON -->
+    <link rel="shortcut icon" href="./images/icon.png" />
+    <title>Job Openings</title>
+  </head>
+  <body>
+    <!-- ! Navbar -->
+    <section class="b-navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"
+          >JOB <span style="color: #5cb85c">QUINT</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item active">
+              <a href="job.html" class="nav-link">JOBS</a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item active">
+              <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </section>
+    <!-- ! Navbar End -->
+
+    <!-- ! Middle Content -->
+    <section class="job-middleContent">
+      <!-- ?First Container -->
+      <div class="container job-top">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-12">
+            <div class="text-center">
+              <h2 class="section__title mb-1 mt-3 text-dark">Jobs Openings</h2>
+              <p>
+                <span class="text-danger">Note:</span> Click On Job Category
+                Title For More Openings
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ?First Container End -->
+
+      <!-- ?Second Container -->
+      <div class="secondContainer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <form class="filter-form mt-2 mb-2">
+                <div class="row">
+                  <div class="col-md-8 col-12 mb-3">
+                    <div class="form-group">
+                      <label for="jobPosition">Job Type :</label>
+                      <select id="jobPosition" class="custom-select job-hover">
+                        <option value="position0" id="#">All</option>
+                        <option value="position1" id="position1">UPSC</option>
+                        <option value="position2" id="position2">SSC</option>
+                        <option value="position3" id="position3">
+                          Indian Railways
+                        </option>
+                        <option value="position4" id="position4">
+                          Finance & Banking
+                        </option>
+                        <option value="position5" id="position5">
+                          PSUs/PSCs
+                        </option>
+                        <option value="position6" id="position6">
+                          Defence
+                        </option>
+                        <option value="position7" id="position7">
+                          Police Security & Safety
+                        </option>
+                        <option value="position8" id="position8">
+                          Gov Organisation
+                        </option>
+                        <!-- <option value="position9"></option>
+                                <option value="position10">IT</option>
+                                <option value="position11">CLERK</option>
+                                <option value="position12">HOSPITAL MEDICAL</option>
+                                <option value="position13">FOREST</option>
+                                <option value="position14">POLICE</option>
+                                <option value="position15">DEFENCE</option>
+                                <option value="position16">AIRLINE/AVIATION</option>
+                                <option value="position17">POWER SECTOR</option>
+                                <option value="position18">NTPC</option>
+                                <option value="position19">BANKING PO</option>
+                                <option value="position20">ENGINEERING</option>
+                                <option value="position21">LAW GRADUATE</option>
+                                <option value="position22">TEACHING</option>
+                                <option value="position23">COMPITATIVE EXAMS</option>
+                                <option value="position24">OTHER</option> -->
+                      </select>
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-4 mb-3">
+                        <div class="form-group">
+                            <label for="jobType">Type :</label>
+                            <select id="jobType" class="custom-select">
+                                <option value="type1">Full-time</option>
+                                <option value="type3">Part-time</option>
+                                <option value="type4">Remote</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="form-group">
+                            <label for="jobLocation">Location : </label>
+                            <select id="jobLocation" class="custom-select">
+                                <option value="location0">All</option>
+                                <option value="location1">Andhra Pradesh</option>
+                                <option value="location3">Arunachal Pradesh</option>
+                                <option value="location2">Assam</option>
+                                <option value="location4">Bihar</option>
+                                <option value="location5">Chhattisgarh</option>
+                                <option value="location6">Goa</option>
+                                <option value="location7">Gujarat</option>
+                                <option value="location8">Haryana</option>
+                                <option value="location9">Himachal Pradesh</option>
+                                <option value="location10">Jammu and Kashmir</option>
+                                <option value="location11">Jharkhand</option>
+                                <option value="location12">Karnataka</option>
+                                <option value="location13">Kerala</option>
+                                <option value="location14">Madya Pradesh</option>
+                                <option value="location15">Maharashtra</option>
+                                <option value="location16">Manipur</option>
+                                <option value="location17">Meghalaya</option>
+                                <option value="location18">Mizoram</option>
+                                <option value="location19">Nagaland</option>
+                                <option value="location20">Orissa</option>
+                                <option value="location21">Punjab</option>
+                                <option value="location22">Rajasthan</option>
+                                <option value="location23">Sikkim</option>
+                                <option value="location24">Tamil Nadu</option>
+                                <option value="location25">Telagana</option>
+                                <option value="location26">Tripura</option>
+                                <option value="location27">Uttaranchal</option>
+                                <option value="location28">Uttar Pradesh</option>
+                                <option value="location29">West Bengal</option>
+                            </select>
+                        </div>
+                    </div> -->
+                </div>
+              </form>
+
+              <!--1. UPSC -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position1">
+                  <h3 class="mb-4 text-success">UPSC</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Indian Engineering Services
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Indian Forest Services
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> NDA/NA </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> IFS/ISS </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Civil Services
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> CDS </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--2. SSC -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position2">
+                  <h3 class="mb-4 text-success">SSC</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> SSC CGL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> SSC JE </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> SSC CHSL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> SSC CPO </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--3. Indian Railways -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position3">
+                  <h3 class="mb-4 text-success">Indian Railways</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> Group A </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> Group C </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> Group D </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--4. Finance & Banking -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position4">
+                  <h3 class="mb-4 text-success">Finance & Banking</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> RBI </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> SEBI </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Revenue Department
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> LIC </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> SBI </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--5. PSUs/PSCs -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position5">
+                  <h3 class="mb-4 text-success">PSUs/PSCs</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> NTPC </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> NPCIL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> GAIL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> HPCL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> BPCL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> BHEL </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 7 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        COAL INDIA LTD
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 8 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> ONGC </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 9 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> ETC </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--6. Defence -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position6">
+                  <h3 class="mb-4 text-success">Defence</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> Army </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Central Armed Police Forces
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> Navy </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> DRDO </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> Air Force </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Ex-Serviceman Welfare
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--7. Police Security & Safety -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position7">
+                  <h3 class="mb-4 text-success">Police Security & Safety</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Central police Organisation
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> BPR&D </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> NCRB </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Fire Safety Services
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+
+              <!--8. Gov Organisation -->
+              <div class="job-list__wrapper mb-6">
+                <a href="#position8">
+                  <h3 class="mb-4 text-success">Gov Organisation</h3>
+                </a>
+
+                <!-- Card 1 -->
+                <a
+                  href="quint.html"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> DRDO </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 2 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> BRO </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 3 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> CPWD </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading"> NTRO </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a
+                  href="#"
+                  class="card p-0 mb-3 border-0 shadow-sm shadow--on-hover"
+                >
+                  <div class="card-body">
+                    <span
+                      class="row justify-content-between align-items-center"
+                    >
+                      <span class="col-md-5 color--heading">
+                        Central Water Commission
+                      </span>
+
+                      <span
+                        class="d-none d-md-block col-1 text-center color--text"
+                      >
+                        <small><i class="fas fa-chevron-right"></i></small>
+                      </span>
+                    </span>
+                  </div>
+                </a>
+                <!-- Job Card End -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ?Second Container End-->
+    </section>
+
+    <!-- !Top Btn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- !Top Btn End -->
+
+    <!-- ! Middle Content End -->
+
+    <!-- !FOOTER START HERE -->
+    <footer class="page-footer bg-dark">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-muted">
+        © 2020 Copyright:
+        <a href="https://www.JobQuint.com/" class="text-white"
+          >JOB<span class="text-success">QUINT</span></a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- !FOOTER END HERE -->
+
+    <!-- !Custom Scripts -->
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

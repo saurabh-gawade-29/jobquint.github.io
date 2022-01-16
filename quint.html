@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./css/quint.css" />
+    <title>Quint Analysis</title>
+  </head>
+  <body>
+    <!-- ! Navbar -->
+    <section class="b-navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"
+          >JOB <span style="color: #5cb85c">QUINT</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item active">
+              <a href="job.html" class="nav-link">JOBS</a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item active">
+              <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </section>
+    <!-- ! Navbar End -->
+
+    <!-- !Middle Content -->
+    <section class="middle-content">
+      <div class="container">
+        <div class="first-container job-top">
+          <!--container-->
+          <h1 class="text-center text-dark">JOB TITLE</h1>
+          <h3 class="text-center bg-success job_title">Quint-Analysis</h3>
+        </div>
+      </div>
+      <div class="container p-2">
+        <!-- Quint Ananlysis -->
+        <div class="row text-center">
+          <!-- Quint-Card -->
+          <div class="col-lg-2dot4 col-md-2dot4 col-sm-2dot4">
+            <a href="#" style="text-decoration: none">
+              <div class="card h-10 border-success">
+                <div class="card-body">
+                  <h4 class="card-title">Career</h4>
+                  <p class="card-text">Ratings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2dot4 col-md-2dot4 col-sm-2dot4">
+            <a href="#" style="text-decoration: none">
+              <div class="card border-success">
+                <div class="card-body">
+                  <h4 class="card-title">Salary</h4>
+                  <p class="card-text">Ratings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2dot4 col-md-2dot4 col-sm-2dot4">
+            <a href="#" style="text-decoration: none">
+              <div class="card border-success">
+                <div class="card-body">
+                  <h4 class="card-title">Compet</h4>
+                  <p class="card-text">Ratings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2dot4 col-md-2dot4 col-sm-2dot4">
+            <a href="#" style="text-decoration: none">
+              <div class="card border-success">
+                <div class="card-body">
+                  <h4 class="card-title">Respon</h4>
+                  <p class="card-text">Ratings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2dot4 col-md-2dot4 col-sm-2dot4">
+            <a href="#" style="text-decoration: none">
+              <div class="card border-success">
+                <div class="card-body">
+                  <h4 class="card-title">Review</h4>
+                  <p class="card-text">Ratings</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Quint-Card-End-->
+        </div>
+        <hr />
+        <!-- NAVIGATION TABLIST  -->
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="Overview-tab"
+                  data-toggle="tab"
+                  href="#Overview"
+                  role="tab"
+                  aria-controls="Overview"
+                  aria-selected="true"
+                  >Overview</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="Notification-tab"
+                  data-toggle="tab"
+                  href="#Notification"
+                  role="tab"
+                  aria-controls="Notification"
+                  aria-selected="false"
+                  >Important Info</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="Qualification-tab"
+                  data-toggle="tab"
+                  href="#Qualification"
+                  role="tab"
+                  aria-controls="Qualification"
+                  aria-selected="false"
+                  >Qualification</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="SelecionProccess-tab"
+                  data-toggle="tab"
+                  href="#SelecionProccess"
+                  role="tab"
+                  aria-controls="SelecionProccess"
+                  aria-selected="false"
+                  >Selection Proccess</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="OtherCriteria-tab"
+                  data-toggle="tab"
+                  href="#OtherCriteria"
+                  role="tab"
+                  aria-controls="OtherCriteria"
+                  aria-selected="false"
+                  >Other Criteria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="ApplicationFee-tab"
+                  data-toggle="tab"
+                  href="#ApplicationFee"
+                  role="tab"
+                  aria-controls="ApplicationFee"
+                  aria-selected="false"
+                  >Application Fee</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="Salary-tab"
+                  data-toggle="tab"
+                  href="#Salary"
+                  role="tab"
+                  aria-controls="Salary"
+                  aria-selected="false"
+                  >Salary/PayScale</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="ImportantDates-tab"
+                  data-toggle="tab"
+                  href="#ImportantDates"
+                  role="tab"
+                  aria-controls="ImportantDates"
+                  aria-selected="false"
+                  >Important Dates</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="HowToApply-tab"
+                  data-toggle="tab"
+                  href="#HowToApply"
+                  role="tab"
+                  aria-controls="HowToApply"
+                  aria-selected="false"
+                  >How To Apply</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- NVAIGATION TABLIST END HERE  -->
+          <div class="col-md-9">
+            <div class="tab-content" id="myTabContent">
+              <!-- Overview -->
+              <div
+                class="tab-pane fade show active"
+                id="Overview"
+                role="tabpanel"
+                aria-labelledby="Overview-tab"
+              >
+                <h4>Job Discription</h4>
+                <p>
+                  According to work profile you may have to deal with legal
+                  issues of organization, market security, indexes inspection of
+                  Account of Stock Exchanges, Investigate any malpractice with
+                  security Market Somtimes You May be alloted with multiple
+                  responsibility and you hav opportunity to get promotion test
+                </p>
+
+                <h4>Important Info</h4>
+                <p>
+                  SEBI[FULL FORM] invites candidtae dor the post of officer
+                  grade A (Assistant Manager) in general,Legal,IT Engg, Research
+                  and official language for 147 vacancies with Qualification of
+                  BE,B.Tech,LLB,CA or its Masters Degree with age limit of
+                  30yrs. Selection Proccess Consist of 3 phase which is online
+                  before 23 march 2020. Follow For Detail info.
+                </p>
+
+                <h4>Qulification</h4>
+                <p>
+                  Genreal: Masters in any discipline LLB, BE, B.Tech, CA, CS,
+                  CFA <br />
+                  legal:LLB
+                </p>
+
+                <h4>Selection Process</h4>
+                <p>
+                  Phase 1: Online Examination <br />
+                  Paper 1, Paper 2
+                </p>
+
+                <h4>Other Criteria</h4>
+                <p>
+                  Age Limit: 30years <br />
+                  1 Year Experience
+                </p>
+
+                <h4>Application Fees</h4>
+                <p>
+                  Open obc ews: 1000 <br />
+                  SC/ST pwbd: 100
+                </p>
+
+                <h4>Salary/Pay Scale</h4>
+                <p>
+                  Approx 107000 Without accomodation or 73000 with accomodation
+                </p>
+
+                <h4>Important Dates</h4>
+                <p>
+                  Application Starting Date 07 March 2020 <br />
+                  ~last date 31 july 2020
+                </p>
+
+                <h4 class="text-center text-danger">How To Apply</h4>
+                <p class="text-center">
+                  All Intrested and eligible candidate can apply for the post on
+                  official website or click on apply now button
+                </p>
+
+                <div class="container">
+                  <div class="row mb-5">
+                    <div class="col-6">
+                      <form>
+                        <button
+                          class="btn btn-outline-danger btn-defualt btn-block"
+                          type="submit"
+                          formaction="#"
+                        >
+                          Download PDF
+                        </button>
+                      </form>
+                    </div>
+                    <div class="col-6">
+                      <form>
+                        <button
+                          class="btn btn-outline-danger btn-defualt btn-block"
+                          type="submit"
+                          formaction="#"
+                        >
+                          Apply Now
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Overview End Here -->
+              </div>
+              <!-- Notification -->
+              <div
+                class="tab-pane fade"
+                id="Notification"
+                role="tabpanel"
+                aria-labelledby="Notification-tab"
+              >
+                <h2>Important Info</h2>
+                <p>
+                  SEBI[FULL FORM] invites candidtae dor the post of officer
+                  grade A (Assistant Manager) in general,Legal,IT Engg, Research
+                  and official language for 147 vacancies with Qualification of
+                  BE,B.Tech,LLB,CA or its Masters Degree with age limit of
+                  30yrs. Selection Proccess Consist of 3 phase which is online
+                  before 23 march 2020. Follow For Detail info.
+                </p>
+              </div>
+              <!-- Qulification -->
+              <div
+                class="tab-pane fade"
+                id="Qualification"
+                role="tabpanel"
+                aria-labelledby="Qualification-tab"
+              >
+                <h2>Qualification</h2>
+                <p>
+                  Genreal: Masters in any discipline LLB, BE, B.Tech, CA, CS,
+                  CFA <br />
+                  legal:LLB
+                </p>
+              </div>
+              <!-- Selection Process -->
+              <div
+                class="tab-pane fade"
+                id="SelecionProccess"
+                role="tabpanel"
+                aria-labelledby="SelecionProccess-tab"
+              >
+                <h2>Selecion Proccess</h2>
+                <p>
+                  Phase 1: Online Examination <br />
+                  Paper 1, Paper 2
+                </p>
+              </div>
+              <!-- Other Criteria -->
+              <div
+                class="tab-pane fade"
+                id="OtherCriteria"
+                role="tabpanel"
+                aria-labelledby="OtherCriteria-tab"
+              >
+                <h2>Other Criteria</h2>
+                <p>
+                  Age Limit: 30years <br />
+                  1 Year Experience
+                </p>
+              </div>
+              <!-- Application Fee -->
+              <div
+                class="tab-pane fade"
+                id="ApplicationFee"
+                role="tabpanel"
+                aria-labelledby="ApplicationFee-tab"
+              >
+                <h2>Application Fee</h2>
+                <p>
+                  Open obc ews: 1000 <br />
+                  SC/ST pwbd: 100
+                </p>
+              </div>
+              <!-- Salary -->
+              <div
+                class="tab-pane fade"
+                id="Salary"
+                role="tabpanel"
+                aria-labelledby="Salary-tab"
+              >
+                <h2>Salary</h2>
+                <p>
+                  Approx 107000 Without accomodation or 73000 with accomodation
+                </p>
+              </div>
+              <!-- Important Dates -->
+              <div
+                class="tab-pane fade"
+                id="ImportantDates"
+                role="tabpanel"
+                aria-labelledby="ImportantDates-tab"
+              >
+                <h2>Important Dates</h2>
+                <p>
+                  Application Starting Date 07 March 2020 <br />
+                  ~last date 31 july 2020
+                </p>
+              </div>
+              <!-- How to Apply -->
+              <div
+                class="tab-pane fade"
+                id="HowToApply"
+                role="tabpanel"
+                aria-labelledby="HowToApply-tab"
+              >
+                <h2>How To Apply</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Neque, eveniet earum. Sed accusantium eligendi molestiae quo
+                  hic velit nobis et, tempora placeat ratione rem blanditiis
+                  voluptates vel ipsam? Facilis, earum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Navigation Tablist End -->
+        </div>
+      </div>
+    </section>
+    <!-- !Middle Content End-->
+
+    <!-- !NewsLetter -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="content">
+              <form id="contact-form" action="#" method="post">
+                <h4>Never Miss Gov Vacancy Again Get Free Gov Job Alerts</h4>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                    required=""
+                    id="newsletter-email"
+                  />
+                  <span class="input-group-btn">
+                    <button class="form-control btn" type="submit" id="submit">
+                      Subscribe Now
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !NewsLetter End -->
+
+    <!-- !FOOTER START HERE -->
+    <footer class="page-footer bg-dark">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-muted">
+        © 2020 Copyright:
+        <a href="https://www.JobQuint.com/" class="text-white"
+          >JOB<span class="text-success">QUINT</span></a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- !FOOTER END HERE -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+/* !Some Common CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff9933;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: rgb(36, 35, 35);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background-color: #5cb85c;
+  border: none;
+}
+
+footer .column a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+footer .column a + a {
+  padding: 0 0.5em;
+}
+
+.input-group-prepend {
+  margin-right: -1px;
+  cursor: pointer;
+}
+
+// Media Query
+@media only screen and (max-width: 600px) {
+  .footerNewsletter,
+  .footerSocial {
+    margin-bottom: 1.2rem;
+  }
+}
+/* !Some Common CSS End  */

@@ -1,0 +1,23 @@
+.aboutBanner {
+  position: relative;
+}
+
+.bannerText {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.bannerIMG {
+  background: black;
+  overflow: hidden;
+  height: 65vh;
+  min-height: 300px;
+}
+
+.bannerIMG img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+/*# sourceMappingURL=about.css.map */
